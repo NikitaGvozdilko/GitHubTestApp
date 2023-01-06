@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GitHubTest</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="search">Search</string>
+    <string name="error_no_internet_connection">Internet is not available</string>
+    <string name="error_something_went_wrong">Something went wrong</string>
+    <string name="error_unable_communicate_server">Server doesn\'t response</string>
+    <string name="history_empty">History is empty</string>
+    <string name="repositories_empty">Enter a query</string>
+    <string name="auth_failed">Authentication failed</string>
+</resources>
