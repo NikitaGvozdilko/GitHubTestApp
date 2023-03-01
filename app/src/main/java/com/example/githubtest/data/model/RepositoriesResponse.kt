@@ -2,13 +2,13 @@ package com.example.githubtest.data.model
 
 import com.google.gson.annotations.SerializedName
 
-class RepositoriesResponse {
+class RepositoriesResponse(
     @SerializedName("total_count")
-    var totalCount : Int = 0
+    val totalCount: Int = 0,
 
     @SerializedName("incomplete_results")
-    var isinCompleteResults : Boolean = false
+    val isinCompleteResults: Boolean = false,
 
     @SerializedName("items")
-    var items : List<RepositoryDto>? = null
-}
+    val items: List<RepositoryDto>? = null
+)
